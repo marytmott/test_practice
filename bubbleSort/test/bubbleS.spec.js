@@ -1,8 +1,6 @@
 const bubbleS = require('../bubbleS').bubbleS;
 const assert = require('assert');
 
-console.log(bubbleS);
-// bubble sort
 describe('bubble sort', function() {
   const testArr = [0, 100, 29, 50, -1, 30];
 
