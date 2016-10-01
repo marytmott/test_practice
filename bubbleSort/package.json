@@ -1,0 +1,17 @@
+{
+  "name": "test_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bubbleS.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
