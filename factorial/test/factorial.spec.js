@@ -24,6 +24,6 @@ describe('factorial function', function() {
   });
 
   it('should return the factorial of a number', function() {
-    assert.equal(factorial(10), 3628800)
+    assert.equal(factorial(10), 3628800);
   });
 });
