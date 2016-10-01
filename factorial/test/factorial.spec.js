@@ -1,5 +1,5 @@
-const factorial = require('../factorial').factorial;
 const assert = require('assert');
+const factorial = require('../factorial');
 
 describe('factorial function', function() {
 

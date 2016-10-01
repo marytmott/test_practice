@@ -16,4 +16,4 @@ function _factorialHelper(currNum, currTotal = 1) {
   return _factorialHelper(currNum - 1, currTotal * currNum);
 }
 
-module.exports = { factorial };
+module.exports = factorial;

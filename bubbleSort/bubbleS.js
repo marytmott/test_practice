@@ -15,4 +15,4 @@ function bubbleS(arr) {
   return arr;
 }
 
-module.exports = { bubbleS };
+module.exports = bubbleS;

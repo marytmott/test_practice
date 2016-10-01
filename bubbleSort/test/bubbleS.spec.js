@@ -1,5 +1,5 @@
-const bubbleS = require('../bubbleS').bubbleS;
 const assert = require('assert');
+const bubbleS = require('../bubbleS');
 
 describe('bubble sort', function() {
   const testArr = [0, 100, 29, 50, -1, 30];
