@@ -2,7 +2,7 @@ const errMsgs = require('../errorMsgs');
 
 function* fibonnaciGen(howManyNums) {
   if (howManyNums < 1) {
-    throw new RangeError(errMsgs.argGreaterThanZero);
+    throw new RangeError(errMsgs.argLessThanZero);
   }
 
   let count = howManyNums;

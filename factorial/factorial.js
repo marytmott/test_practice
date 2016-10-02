@@ -3,7 +3,7 @@ const errMsgs = require('../errorMsgs');
 function factorial(num) {
 
   if (num < 1) {
-    throw new RangeError(errMsgs.argGreaterThanZero);
+    throw new RangeError(errMsgs.argLessThanZero);
   }
 
   return _factorialHelper(num);
