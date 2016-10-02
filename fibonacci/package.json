@@ -1,0 +1,17 @@
+{
+  "name": "fibonacci.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibonnaciGen.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
