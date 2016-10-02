@@ -5,7 +5,6 @@ describe('bubble sort', function() {
   const testArr = [0, 100, 29, 50, -1, 30];
 
   it('should return an array', function() {
-
     assert(Array.isArray(bubbleS(testArr)));
   });
 
