@@ -1,8 +1,7 @@
 function factorial(num) {
 
   if (num < 1) {
-
-    // throw new RangeError('Number value must be greater than 0.');
+    throw new RangeError('Number value must be greater than 0.');
   }
 
   return _factorialHelper(num);
