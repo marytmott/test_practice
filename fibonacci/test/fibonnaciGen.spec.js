@@ -12,11 +12,9 @@ describe('fibonnaci generator', function() {
 
   it('should throw if the argument is less than 1', function() {
     function throwGen() {
-      const fibIter0 = fibonnaciGen(0);
-      let junkArr = [];
-
-      for (let val of fibIter0) {
-        junkArr.push(val);
+      // you actually have to call the generator for it to throw
+      for (let val of fibonnaciGen(0)) {
+        console.log(val);
       }
     }
 
