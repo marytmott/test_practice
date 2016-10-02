@@ -1,13 +1,14 @@
 const errMsgs = require('../errorMsgs');
 
 function* fibonnaciGen(howManyNums) {
-  if (howManyNums < 1) {
-    throw new RangeError(errMsgs.argLessThanZero);
-  }
   let count = howManyNums;
   let num1 = 0;
   let num2 = 1;
   let tempNum;
+
+  if (howManyNums < 1) {
+    throw new RangeError(errMsgs.argLessThanZero);
+  }
 
   while(count > 0) {
     yield num2;
