@@ -7,19 +7,19 @@ describe('factorial function', function() {
     assert(!isNaN(factorial(90)));
   });
 
-  it('should throw if the initial value is less than 1', function() {
+  it('should throw if the argument is less than 1', function() {
     assert.throws(function() { factorial(-Infinity) }, RangeError);
   });
 
-  it('should throw if the initial value is 0', function() {
+  it('should throw if argument is 0', function() {
     assert.throws(function() { factorial(0) }, RangeError);
   });
 
-  it('should not throw if the initial value is greater than 0', function() {
+  it('should not throw if argument is greater than 0', function() {
     assert.doesNotThrow(function() { factorial(1) });
   });
 
-  it('should return 1 if the initial value is 1', function() {
+  it('should return 1 if argument is 1', function() {
     assert.equal(factorial(1), 1);
   });
 
