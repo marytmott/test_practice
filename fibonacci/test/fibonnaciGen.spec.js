@@ -7,7 +7,7 @@ describe('fibonnaci generator', function() {
   it('should return an iterator', function() {
     const iterator = typeof [Symbol.iterator];
 
-    assert.equal(typeof fibIter, iterator);
+    assert.deepEqual(typeof fibIter, iterator);
   });
 
   it('should throw if the argument is less than 1', function() {
