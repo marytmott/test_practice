@@ -1,7 +1,9 @@
+const errMsgs = require('../errorMsgs');
+
 function factorial(num) {
 
   if (num < 1) {
-    throw new RangeError('Number value must be greater than 0.');
+    throw new RangeError(errMsgs.argGreaterThanZero);
   }
 
   return _factorialHelper(num);
